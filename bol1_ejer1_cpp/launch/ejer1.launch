@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="bol1_ejer1_cpp" type="bol1_ejer1_cpp_node" name="my_node" output="screen"/>
+
+</launch>
