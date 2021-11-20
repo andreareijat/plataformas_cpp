@@ -131,8 +131,8 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(node_a src/node_a.cpp)
-add_executable(node_b src/node_b.cpp)
+add_executable(node_a_node src/nodo_a.cpp)
+add_executable(node_b_node src/nodo_b.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -142,15 +142,15 @@ add_executable(node_b src/node_b.cpp)
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
-add_dependencies(node_a ${node_a_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
-add_dependencies(node_b ${node_b_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(node_a_node ${node_a_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(node_b_node ${node_b_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
-target_link_libraries(node_a
+target_link_libraries(node_a_node
   ${catkin_LIBRARIES}
 )
 
-target_link_libraries(node_b
+target_link_libraries(node_b_node
   ${catkin_LIBRARIES}
 )
 
