@@ -1,0 +1,9 @@
+#Goal
+int32 segundos
+---
+#Result
+int32 trabajo
+string msg
+---
+#Feedback
+int32 parcial
