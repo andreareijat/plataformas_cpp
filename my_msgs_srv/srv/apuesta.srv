@@ -1,0 +1,6 @@
+int32 numero_apostado
+int32 apuesta
+---
+int32 numero_apostado
+int32 numero_contrincante
+bool resultado
