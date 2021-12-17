@@ -62,7 +62,7 @@ find_package(catkin REQUIRED COMPONENTS
  add_action_files(
    FILES
    simpleaction_msgs.action
-#   Action2.action
+   numeros_aleatorios.action
  )
 
 ## Generate added messages and services with any dependencies listed here

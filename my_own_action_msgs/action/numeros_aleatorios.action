@@ -1,0 +1,9 @@
+#Goal
+int32 seed
+int32 iterations
+---
+#Result
+int32 last_number
+---
+#Feedback
+int32 partial_number
